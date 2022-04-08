@@ -6,6 +6,10 @@
 body {
     margin: 0px;
     font-family: Montserrat ,'Times New Roman', Times, serif;
+    height: 100vh;
+    overflow-x: hidden;
+    min-width: 615px;
+    min-height: 417px;
 }
 
 .main {
@@ -63,6 +67,9 @@ body {
     background-size: auto;
     background-repeat: no-repeat;
     width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .top-container {
@@ -77,7 +84,7 @@ body {
 }
 
 .bottom-container {
-    height: 100%;
+    height: calc(100% - 30px);
     display: flex;
     flex-direction: column;
     padding-top: 30px;
@@ -115,4 +122,15 @@ button {
     color: white;
     font-size: 60px;
     margin-left: 10px;
+}
+
+.caption {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.caption > a {
+    color: white;
 }
