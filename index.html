@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="picture"></div>
+        <div class="right-main">
+            <div class="holder">
+                <div class="top-container">
+                    <div>This is not a real online service! you know you need something like this in your life to help you realize your deepest dreams.</div> 
+                    <div>Sign up <a class="italic">now</a> to get started.</div> 
+                    </br> 
+                    <div>you <a class="italic">know</a> you want to.</div>
+                </div>
+            </div>
+            <div class="holder">
+                <div class="middle-container">
+                    <div class="header">Let's do this!</div>
+                    <from class="input-overflow-container">
+                        <div class="input-container">
+                            <div class="input-header">First Name</div>
+                            <input class="input" type="text">
+                        </div>
+                        <div class="input-container">
+                            <div class="input-header">Last Name</div>
+                            <input class="input" type="text">
+                        </div>
+                
+                        <div class="input-container">
+                            <div class="input-header">Email</div>
+                            <input class="input" type="text">
+                        </div>
+                        <div class="input-container">
+                            <div class="input-header">Phone Number</div>
+                            <input class="input" type="text">
+                        </div>
+                        <div class="input-container">
+                            <div class="input-header">Password</div>
+                            <input class="input" type="password" id="password" onkeyup='check();'>
+                        </div>
+                        <div class="input-container">
+                            <div class="input-header">Confirm Password</div>
+                            <input class="input" type="password" id="confirm-password" onkeyup='check();'>
+                            <div id='message'> </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="holder">
+                <div class="bottom-container">
+                    <button>Create Account</button>
+                    <div class="login">Already have an account? <a href="https://www.google.com">Log in</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
