@@ -1,3 +1,8 @@
+@font-face {
+    font-family: logoFont;
+    src: url(./resources/fonts/Norse-Bold.otf);
+  }
+
 body {
     margin: 0px;
     font-family: Montserrat ,'Times New Roman', Times, serif;
@@ -89,4 +94,25 @@ button {
 
 .italic {
     font-style: italic;
+}
+
+.logo-background {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.523);
+    margin-top: 28vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 88px;
+}
+
+.logo-text {
+    font-family: logoFont;
+    color: white;
+    font-size: 60px;
+    margin-left: 10px;
 }
