@@ -8,8 +8,6 @@ body {
     font-family: Montserrat ,'Times New Roman', Times, serif;
     height: 100vh;
     overflow-x: hidden;
-    min-width: 615px;
-    min-height: 417px;
 }
 
 .main {
@@ -18,7 +16,7 @@ body {
     margin: 0px;
     width: 100vw;
     height: 100vh;
-    flex-flow: row wrap;
+    flex-wrap: nowrap;
 }
 
 .green-picture {
@@ -43,6 +41,10 @@ body {
     justify-content: space-between;
 }
 
+.middle-holder {
+    min-height: 165px;
+}
+
 .input-container {
     height: 50px;
 }
@@ -59,6 +61,7 @@ body {
 .holder {
     height: 33vh;
     width: 100%;
+    min-width: 380px;
 }
 
 .picture {
@@ -67,6 +70,7 @@ body {
     background-size: auto;
     background-repeat: no-repeat;
     width: 35vw;
+    min-width: 220px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -87,16 +91,25 @@ body {
     height: calc(100% - 30px);
     display: flex;
     flex-direction: column;
-    padding-top: 30px;
+    margin-top: 30px;
 }
 
-button {
+.bottom-container > button {
     height: 30px;
     width: 150px;
+    background-color: #596D48;
+    color: white;
+    font-weight: 600;
 }
+
 
 .login {
     padding-top: 15px;
+}
+
+.login > a {
+    color: #596D48;
+    text-decoration: none;
 }
 
 .italic {

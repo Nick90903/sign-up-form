@@ -6,6 +6,7 @@ if(one == null | two == null | three == null) {
     console.log(`one ${one} two ${two} three ${three}`);
 }
 
+
 let check = function() {
     if (document.getElementById('password').value ==
       document.getElementById('confirm-password').value) {
